@@ -1,0 +1,27 @@
+type: DoubleTurret
+name: hole Turret
+description: Sprays useless hole everywhere. What a mess.
+health: 2000
+size: 1
+reload: 0.5
+range: 100000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 1
+rotatespeed: 12
+ammo: {
+  hole: {
+    speed: 200
+    damage: 1000
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 20
+  }
+}
+requirements: [
+  thorium/40
+  copper/70
+]
+category: turret
+research: duo

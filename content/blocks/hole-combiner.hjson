@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Hole combinator
+description: Combines item into Hole ammo.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 6
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      thorium/10
+    ]
+  }
+  liquid: {
+    liquid: oil
+    amount: 1
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  titanium/50
+]
+category: crafting
+research: hole-combiner
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: hole/10

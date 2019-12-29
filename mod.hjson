@@ -1,0 +1,6 @@
+name: "hole-mod"
+displayName: "[orange]hole[gold] Mod" //what displays in the mod selection menu
+author: "MARS"
+description: "powerfull hole items[accent]"
+version: "3.0"
+minGameVersion: "101"

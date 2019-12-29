@@ -1,0 +1,5 @@
+type: material
+name: Hole
+description: An alloy of thorium and petroleum.
+cost: 2.5
+color: dcd16b
